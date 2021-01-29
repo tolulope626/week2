@@ -29,6 +29,8 @@ namespace cst8219 {
 }
 int main(int argc, char **argv)
 {
-   cout << "Hello World!" << endl;
+	using namespace cst8219;
+	Vehicle myVehicle;
+   cout << "I made a vehicle!" << endl;
    return 0;
 }
